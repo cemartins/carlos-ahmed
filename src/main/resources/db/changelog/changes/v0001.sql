@@ -1,0 +1,7 @@
+CREATE SCHEMA coolproject;
+
+CREATE TABLE "user" (
+  id BIGSERIAL NOT NULL ,
+  name VARCHAR(50) NOT NULL ,
+  PRIMARY KEY (id)
+);
